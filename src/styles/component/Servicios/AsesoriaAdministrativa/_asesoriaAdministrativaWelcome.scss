@@ -1,0 +1,53 @@
+.AsesoriaAdministrativaWelcome-container {
+    background-image: url("../../../../image/pexels-karolina-grabowska-7681092.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    font-weight: 600;
+
+    &::before {
+        content: "";
+        height: 60vh;
+        position: absolute;
+        background-color: hsla(0, 0%, 0%, 0.623);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    div {
+        color: #fff;
+        position: relative;
+        max-width: 600px;
+
+        @media (min-width:1000px) {
+            margin-left: 10%;
+        }
+
+
+        h3 {
+            font-weight: bold;
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        button {
+            border: none;
+            background: $Moderatecyan;
+            border-radius: 15px;
+            color: #fff;
+            padding: 10px 15px;
+
+        }
+    }
+}

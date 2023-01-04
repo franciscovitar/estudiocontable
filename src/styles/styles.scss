@@ -1,0 +1,44 @@
+//Settings
+@import "./base/settings.scss";
+
+//Components
+@import "./component/landing/contacto";
+@import "./component/landing/welcome";
+@import "./component/landing/servicios";
+@import "./component/landing/equipo";
+@import "./component/landing/sede";
+@import "./component/landing/empresa";
+
+@import "./component/Conocenos-styles/welcome";
+@import "./component/Conocenos-styles/info.scss";
+
+@import "./component/Servicios/Outsourcing/outsourcingWelcome";
+@import "./component/Servicios/Outsourcing/outsourcingText";
+@import "./component/Servicios/Outsourcing/outsourcingtext2";
+@import "./component/Servicios/Outsourcing/outsourcingVariedad";
+
+@import "./component/Servicios/AsesoriaTributaria/asesoriaTributariaWelcome";
+@import "./component/Servicios/AsesoriaTributaria/asesoriaServicios";
+
+@import "./component/Servicios/AsesoriaLaboral/asesoriaLaboralWelcome";
+@import "./component/Servicios/AsesoriaLaboral/asesoriaLaboralInfo";
+
+
+@import "./component/Servicios/AsesoriaFinanciera/asesoriaFinancieraWelcome";
+@import "./component/Servicios/AsesoriaFinanciera/asesoriaFinancieraInfo";
+
+@import "./component/Servicios/AsesoriaAdministrativa/asesoriaAdministrativaInfo";
+@import "./component/Servicios/AsesoriaAdministrativa/asesoriaAdministrativaWelcome";
+
+@import "./component/Servicios/AsesoriaContable/asesoriaContableWelcome";
+@import "./component/Servicios/AsesoriaContable/asesoriaContableOptions";
+@import "./component/Servicios/AsesoriaContable/asesoriaContablesInfo";
+
+@import "./component/Empresa/empresaInfo";
+@import "./component/Empresa/empresaInfo2";
+@import "./component/Empresa/empresaWelcome";
+
+
+
+//Screen
+@import "./screen/screen";

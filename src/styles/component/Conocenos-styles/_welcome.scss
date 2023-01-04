@@ -1,0 +1,41 @@
+.conocenos-welcome-container {
+    background-image: url("../../../image/pexels-karolina-grabowska-7681092.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+
+    @media(min-width: 768px) {
+        justify-content: center;
+        text-align: center;
+    }
+
+    &::before {
+        content: "";
+        height: 60vh;
+        position: absolute;
+        background-color: hsla(0, 0%, 0%, 0.623);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    div {
+        color: rgb(255, 255, 255);
+        position: relative;
+
+        h1,
+        h5 {
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+    }
+}

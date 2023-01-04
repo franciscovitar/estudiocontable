@@ -1,0 +1,39 @@
+.asesoria-financiera-welcome-container {
+    background-image: url("../../../../image/pexels-karolina-grabowska-7681092.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    position: relative;
+    font-weight: 600;
+
+    &::before {
+        content: "";
+        height: 60vh;
+        position: absolute;
+        background-color: hsla(0, 0%, 0%, 0.623);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    div {
+        color: #fff;
+        position: relative;
+        text-align: center;
+
+        h2 {
+            font-weight: bold;
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+    }
+}

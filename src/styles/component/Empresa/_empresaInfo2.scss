@@ -1,0 +1,32 @@
+.EmpresaInfo2-container {
+    background-image: url("../../../image/pexels-olia-danilevich-5466820.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    margin: 50px 0 0 0;
+    padding: 50px 0;
+    font-weight: 500;
+
+    &::before {
+        content: "";
+        position: absolute;
+        background-color: hsla(0, 0%, 100%, 0.952);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    div {
+        position: relative;
+
+        h2 {
+            font-weight: bold;
+            color: $dark-blue;
+        }
+    }
+
+
+}

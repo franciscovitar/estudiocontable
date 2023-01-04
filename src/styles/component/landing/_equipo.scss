@@ -1,0 +1,41 @@
+.equipo-container {
+    text-align: center;
+    margin: 100px 0;
+
+    div {
+        h1 {
+
+            margin: 50px;
+            font-weight: bold;
+            font-size: 30px;
+        }
+    }
+
+
+
+    div {
+        color: rgb(0, 0, 0);
+        justify-content: space-around;
+
+
+        div {
+
+            max-width: 600px;
+
+            img {
+                width: 250px;
+                height: 250px;
+                border-radius: 100%;
+                object-fit: cover;
+
+            }
+
+            h5 {
+                margin-top: 20px;
+                font-weight: bold;
+            }
+        }
+
+    }
+
+}

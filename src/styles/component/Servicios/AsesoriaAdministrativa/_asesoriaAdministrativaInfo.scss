@@ -1,0 +1,25 @@
+.AsesoriaAdministrativaInfo-container {
+    margin-bottom: 100px;
+    color: rgb(105, 105, 105);
+
+    div {
+        align-items: center;
+        margin-top: 50px;
+
+        h2 {
+            font-weight: bold;
+            color: $dark-blue;
+        }
+    }
+
+    .imagen {
+        padding: 40px;
+
+        img {
+            height: 400px;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+}

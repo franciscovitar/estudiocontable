@@ -1,0 +1,50 @@
+.outsourcingwelcome-container {
+    background-image: url("../../../../image/pexels-mikhail-nilov-8296968.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 80vh;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    &::before {
+        content: "";
+        position: absolute;
+        background-color: hsla(0, 0%, 0%, 0.623);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    div {
+        position: relative;
+        color: #fff;
+        max-width: 500px;
+
+        @media(min-width: 768px) {
+            margin-left: 10%;
+        }
+
+        h2 {
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        p {
+            margin: 30px 0;
+        }
+
+        button {
+            border: none;
+            background: $Moderatecyan;
+            border-radius: 15px;
+            color: #fff;
+            padding: 10px 20px;
+
+        }
+    }
+}

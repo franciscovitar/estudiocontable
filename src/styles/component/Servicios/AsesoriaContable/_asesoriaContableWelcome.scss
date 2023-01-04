@@ -1,0 +1,55 @@
+.AsesoriaContableWelcome-container {
+    background-image: url("../../../../image/pexels-mikhail-nilov-8297040.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    background-attachment: fixed;
+    align-items: center;
+    position: relative;
+    font-weight: 600;
+
+    &::before {
+        content: "";
+        height: 60vh;
+        position: absolute;
+        background-color: hsla(0, 0%, 0%, 0.744);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    div {
+        color: #fff;
+        position: relative;
+        max-width: 700px;
+
+        @media(min-width: 768px) {
+            margin-left: 10%;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        button {
+            border: none;
+
+            background: $Moderatecyan;
+            border-radius: 15px;
+            color: #fff;
+            padding: 8px 10px;
+
+
+
+        }
+    }
+}

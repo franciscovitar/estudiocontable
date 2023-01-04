@@ -1,0 +1,25 @@
+.EmpresaInfo-container {
+    padding: 50px;
+
+    p {
+        text-align: left;
+    }
+
+    div:first-child {
+        align-items: center;
+        text-align: center;
+
+        img {
+            justify-content: center;
+            width: 50vh;
+            height: 50vh;
+            object-fit: cover;
+            border-radius: 100%;
+            padding: 20px;
+
+        }
+    }
+
+
+
+}
