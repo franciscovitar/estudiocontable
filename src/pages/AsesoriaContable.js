@@ -3,9 +3,8 @@ import React from "react";
 import AsesoriaContableInfo from "../components/Servicios/AsesoríaContable/AsesoriaContableInfo";
 import AsesoriaContableOptions from "../components/Servicios/AsesoríaContable/AsesoriaContableOptions";
 import AsesoriaContableWelcome from "../components/Servicios/AsesoríaContable/AsesoriaContableWelcome";
-import Contacto from "../components/Landing/Contacto";
+import Contactanos from "../components/Landing/Contactanos";
 import NavBar from "../components/Landing/Navbar";
-import Footer from "../components/Landing/Footer";
 
 function AsesoriaContable() {
   return (
@@ -14,8 +13,7 @@ function AsesoriaContable() {
       <AsesoriaContableWelcome />
       <AsesoriaContableInfo />
       <AsesoriaContableOptions />
-      <Contacto />
-      <Footer></Footer>
+      <Contactanos />
     </div>
   );
 }

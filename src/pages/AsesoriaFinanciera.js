@@ -2,9 +2,8 @@ import React from "react";
 
 import AsesoriaFinancieraWelcome from "../components/Servicios/AsesoríaFinanciera/AsesoriaFinancieraWelcome";
 import AsesoriaFinancieraInfo from "../components/Servicios/AsesoríaFinanciera/AsesoriaFinancieraInfo";
-import Contacto from "../components/Landing/Contacto";
+import Contactanos from "../components/Landing/Contactanos";
 import NavBar from "../components/Landing/Navbar";
-import Footer from "../components/Landing/Footer";
 
 function AsesoriaFinanciera() {
   return (
@@ -12,8 +11,7 @@ function AsesoriaFinanciera() {
       <NavBar></NavBar>
       <AsesoriaFinancieraWelcome></AsesoriaFinancieraWelcome>
       <AsesoriaFinancieraInfo></AsesoriaFinancieraInfo>
-      <Contacto></Contacto>
-      <Footer></Footer>
+      <Contactanos></Contactanos>
     </div>
   );
 }

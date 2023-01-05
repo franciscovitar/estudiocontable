@@ -6,17 +6,15 @@
     background-attachment: fixed;
     height: 60vh;
     display: flex;
+    position: relative;
     align-items: center;
-    padding: 30px;
 
     @media(min-width: 768px) {
         justify-content: center;
-        text-align: center;
     }
 
     &::before {
         content: "";
-        height: 60vh;
         position: absolute;
         background-color: hsla(0, 0%, 0%, 0.623);
         top: 0;
@@ -36,6 +34,10 @@
 
         h1 {
             font-size: 50px;
+
+            @media(max-width: 768px) {
+                font-size: 20px;
+            }
         }
     }
 }

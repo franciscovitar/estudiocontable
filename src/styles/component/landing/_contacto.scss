@@ -1,5 +1,5 @@
-.contacto-container {
-    height: 80vh;
+.contactanos-container {
+    height: 60vh;
     background-repeat: no-repeat;
     background-image: url("../../../image/pexels-pixabay-326576.jpg");
     background-position: center;
@@ -8,7 +8,9 @@
     background-attachment: fixed;
     padding-top: 60px;
     color: hsl(0, 0%, 100%);
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     &::before {
         content: "";
@@ -20,114 +22,25 @@
         right: 0;
     }
 
-    .contacto-container-2 {
-        padding: 50px;
+    .texto {
         position: relative;
-        display: flex;
-        flex-direction: column;
-
-        @media (max-width: 990px) {
-
-            display: none;
-        }
-
-
-        div {
-            margin-top: 20%;
-            align-items: center;
-            max-width: 700px;
-
-            h2 {
-                font-weight: bold;
-                text-align: center;
-            }
-        }
-
-
-    }
-
-    .contacto-container-3 {
-        padding: 50px;
-        font-weight: 600;
-        position: relative;
-        max-width: 700px;
-        margin: auto;
+        text-align: center;
 
         h1 {
+            font-weight: bold;
             text-align: center;
-
         }
 
-        form {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
+        button {
+            border: none;
+            background: $Moderatecyan;
+            border-radius: 20px;
+            color: #fff;
+            padding: 10px 50px;
+            margin-top: 20px;
 
-            label {
-
-                span {
-                    color: hsl(0, 85%, 47%);
-                    font-weight: bold;
-                }
-            }
-
-            input,
-            textarea,
-            select {
-                border-radius: 5px;
-                border: none;
-                display: block;
-                width: 100%;
-                outline: none;
-                padding: 5px;
-                transition: .2s;
-                margin-top: 2px;
-                font-weight: 700;
-                color: hwb(0 0% 100%);
-                background-color: rgba(255, 255, 255, 0.774);
-
-                &:hover {
-                    background-color: #fff;
-                }
-            }
-
-            p {
-                margin-top: 3px;
-                color: hwb(0 26% 0%);
-                font-size: 15px;
-                display: inline;
-                font-weight: 100;
-            }
-
-            button {
-                padding: 7px;
-                margin: 10px auto;
-                width: 50%;
-                border-radius: 15px;
-                border: none;
-                color: #fff;
-                background: $Moderatecyan;
-            }
-        }
-
-        .redes {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 50px;
-
-            a {
-                color: rgb(255, 255, 255);
-                text-decoration: none;
-
-
-                img {
-                    color: #fff;
-                }
-
-                span {
-                    font-weight: bold;
-                }
-            }
         }
     }
+
+
 }

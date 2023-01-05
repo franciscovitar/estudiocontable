@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 function Equipo() {
   return (
     <motion.div
-      className="equipo-container"
+      className="equipo-container container-fluid"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
@@ -17,9 +17,16 @@ function Equipo() {
         <h1>Nuestro equipo de contadores</h1>
       </div>
 
-      <div className="row container-fluid">
+      <div className="row">
         <div className="col-sm-12 col-lg-5">
-          <img src={Peruano1} alt="d" />
+          <motion.img
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1, transition: { duration: 1 } }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            src={Peruano1}
+            alt="d"
+          />
           <h5>CPC Juan Carlos Sanchez</h5>
           <p>
             Contador titulado por la Universidad Nacional del Callao y Magister
@@ -29,7 +36,14 @@ function Equipo() {
           </p>
         </div>
         <div className="col-sm-12 col-lg-5">
-          <img src={Peruano2} alt="d" />
+          <motion.img
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1, transition: { duration: 1 } }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            src={Peruano2}
+            alt="d"
+          />
           <h5>CPC Maria Juliana García</h5>
           <p>
             Contadora titulada por la Universidad Nacional del Callao, con

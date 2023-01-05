@@ -7,7 +7,7 @@
     background-attachment: fixed;
     display: flex;
     align-items: center;
-    padding: 30px;
+    padding-top: 40px;
 
     &::before {
         content: "";
@@ -29,6 +29,10 @@
         h1 {
             font-weight: bold;
             font-size: 40px;
+
+            @media(max-width: 800px) {
+                font-size: 30px;
+            }
         }
 
         p {

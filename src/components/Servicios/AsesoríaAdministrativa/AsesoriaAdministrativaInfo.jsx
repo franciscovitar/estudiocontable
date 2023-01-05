@@ -16,7 +16,14 @@ function AsesoriaAdministrativaInfo() {
         className="row mt-5"
       >
         <div className="col-lg-6 col-12 imagen">
-          <img src={queEsUnEstudio} alt="" />
+          <motion.img
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            src={queEsUnEstudio}
+            alt=""
+          />
         </div>
         <div className="col-lg-6 col-12">
           <h2>
@@ -56,7 +63,7 @@ function AsesoriaAdministrativaInfo() {
 
       <motion.div
         initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        whileInView={{ opacity: 1, scale: 1, transition: { duration: 1 } }}
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
         className="row mt-5"
@@ -110,7 +117,14 @@ function AsesoriaAdministrativaInfo() {
           </ul>
         </div>
         <div className="col-lg-6 col-12 imagen">
-          <img src={queEsRemype} alt="" />
+          <motion.img
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1, transition: { duration: 1 } }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            src={queEsRemype}
+            alt=""
+          />
         </div>
       </motion.div>
     </div>

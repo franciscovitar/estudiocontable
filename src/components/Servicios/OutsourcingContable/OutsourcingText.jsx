@@ -14,7 +14,14 @@ function OutsourcingText() {
       <div className="fila row">
         <div className="imagen col-12 col-lg-6">
           <h2>¿Por qué contratar nuestro servicio de outsourcing contable?</h2>
-          <img src={Estudio} alt="" />
+          <motion.img
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1, transition: { duration: 1 } }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            src={Estudio}
+            alt=""
+          />
         </div>
         <div className="col-12 col-lg-6 ">
           <p>

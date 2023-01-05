@@ -3,8 +3,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 60vh;
+    height: 70vh;
     display: flex;
+    padding: 50px 10px;
     background-attachment: fixed;
     align-items: center;
     position: relative;
@@ -12,7 +13,6 @@
 
     &::before {
         content: "";
-        height: 60vh;
         position: absolute;
         background-color: hsla(0, 0%, 0%, 0.744);
         top: 0;
@@ -34,6 +34,10 @@
             font-weight: bold;
             font-size: 50px;
             margin-bottom: 20px;
+
+            @media (max-width:800px) {
+                font-size: 30px;
+            }
         }
 
         p {

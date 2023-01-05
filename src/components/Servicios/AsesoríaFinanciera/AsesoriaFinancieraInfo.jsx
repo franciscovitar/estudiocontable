@@ -42,7 +42,14 @@ function AsesoriaFinancieraInfo() {
           </p>
         </div>
         <div className="col-lg-6 col-12">
-          <img src={EstudioContableOlivos} alt="" />
+          <motion.img
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1, transition: { duration: 1 } }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            src={EstudioContableOlivos}
+            alt=""
+          />
         </div>
       </motion.div>
 
@@ -116,7 +123,14 @@ function AsesoriaFinancieraInfo() {
       >
         <div className="col-lg-6 col-12">
           <h3>Asesoría financiera para para pymes</h3>
-          <img src={QueLaContabilidad} alt="" />
+          <motion.img
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1, transition: { duration: 1 } }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            src={QueLaContabilidad}
+            alt=""
+          />
         </div>
         <div className="col-lg-6 col-12">
           <p>

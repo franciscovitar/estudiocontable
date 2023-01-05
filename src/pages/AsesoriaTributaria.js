@@ -2,9 +2,8 @@ import React from "react";
 
 import AsesoriaServicios from "../components/Servicios/AsesoríaTributaría/AsesoriaServicios";
 import AsesoriaWelcome from "../components/Servicios/AsesoríaTributaría/AsesoriaWelcome";
-import Contacto from "../components/Landing/Contacto";
+import Contactanos from "../components/Landing/Contactanos";
 import NavBar from "../components/Landing/Navbar";
-import Footer from "../components/Landing/Footer";
 
 function AsesoriaTributaria() {
   return (
@@ -12,8 +11,7 @@ function AsesoriaTributaria() {
       <NavBar></NavBar>
       <AsesoriaWelcome />
       <AsesoriaServicios />
-      <Contacto />
-      <Footer></Footer>
+      <Contactanos />
     </div>
   );
 }

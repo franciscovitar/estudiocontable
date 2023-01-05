@@ -14,7 +14,14 @@ function EmpresaInfo() {
         viewport={{ once: true }}
       >
         <div className="col-12 col-lg-6">
-          <img src={Contadores} alt="" />
+          <motion.img
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            src={Contadores}
+            alt=""
+          />
         </div>
         <div className="col-12 col-lg-6">
           <p>

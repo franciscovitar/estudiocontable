@@ -8,6 +8,7 @@ function Welcome() {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
+        className="container-fluid"
       >
         <h5>Bienvenido</h5>
         <h1>ESTUDIO CONTABLE</h1>

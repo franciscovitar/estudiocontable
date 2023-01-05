@@ -1,12 +1,11 @@
 import React from "react";
-import Contacto from "../components/Landing/Contacto";
+import Contactanos from "../components/Landing/Contactanos";
 import Empresa from "../components/Landing/Empresa";
 import Equipo from "../components/Landing/Equipo";
 import Sede from "../components/Landing/Sede";
 import Servicios from "../components/Landing/Servicios";
 import Welcome from "../components/Landing/Welcome";
 import NavBar from "../components/Landing/Navbar";
-import Footer from "../components/Landing/Footer";
 
 function Home() {
   return (
@@ -17,8 +16,7 @@ function Home() {
       <Servicios></Servicios>
       <Empresa></Empresa>
       <Equipo></Equipo>
-      <Contacto></Contacto>
-      <Footer></Footer>
+      <Contactanos></Contactanos>
     </div>
   );
 }

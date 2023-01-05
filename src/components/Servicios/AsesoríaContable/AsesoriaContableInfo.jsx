@@ -9,13 +9,20 @@ function AsesoriaContableInfo() {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
       viewport={{ once: true }}
-      className="AsesoriaContableInfo-container container"
+      className="AsesoriaContableInfo-container container "
     >
-      <div className="row">
-        <div className="col-12 col-lg-6">
-          <img src={QueEsUnEstudio} alt="" />
+      <div className="row ">
+        <div className="col-12 col-lg-6 imagen">
+          <motion.img
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1, transition: { duration: 1 } }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            src={QueEsUnEstudio}
+            alt=""
+          />
         </div>
-        <div className="col-12 col-lg-6">
+        <div className="col-12 col-lg-6 texto">
           <h3>¿Por qué necesita asesoría empresarial?</h3>
           <p>
             Las <span>empresas de asesorías contables</span> podemos hacer mucho

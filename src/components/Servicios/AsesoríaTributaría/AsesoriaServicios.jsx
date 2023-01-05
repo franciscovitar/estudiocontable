@@ -38,7 +38,14 @@ function AsesoriaServicios() {
           </ul>
         </div>
         <div className="col-lg-6 col-12">
-          <img src={AsesoriaFinanciera} alt="" />
+          <motion.img
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1, transition: { duration: 1 } }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            src={AsesoriaFinanciera}
+            alt=""
+          />
         </div>
       </motion.div>
 
@@ -93,7 +100,14 @@ function AsesoriaServicios() {
             ¿Por qué optar por el servicio de asesoría tributaria para su
             empresa?
           </h3>
-          <img src={AsesoriaTributaria} alt="" />
+          <motion.img
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1, transition: { duration: 1 } }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            src={AsesoriaTributaria}
+            alt=""
+          />
         </div>
 
         <div className="col-lg-6 col-12">

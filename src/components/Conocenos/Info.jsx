@@ -13,14 +13,21 @@ function Info() {
       {/* Texto */}
 
       <motion.div
-        className="row texto"
+        className="row texto container-fluid"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
       >
         <div className="col-12 col-lg-6">
-          <img src={conocenosContador} alt="" />
+          <motion.img
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1, transition: { duration: 1 } }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            src={conocenosContador}
+            alt=""
+          />
         </div>
         <div className="col-12 col-lg-6">
           <p>
@@ -72,7 +79,7 @@ function Info() {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
-        className="row items"
+        className="row items container-fluid"
       >
         <div className="col-lg-4">
           <img src={Icono1} alt="" />

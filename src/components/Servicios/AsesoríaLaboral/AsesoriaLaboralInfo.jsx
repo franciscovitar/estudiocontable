@@ -39,7 +39,14 @@ function AsesoriaLaboralInfo() {
         </div>
 
         <div className="col-lg-6 col-12">
-          <img src={AsesoriaLaboralContadores} alt="" />
+          <motion.img
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1, transition: { duration: 1 } }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            src={AsesoriaLaboralContadores}
+            alt=""
+          />
         </div>
       </motion.div>
 
@@ -85,7 +92,14 @@ function AsesoriaLaboralInfo() {
           <h3>
             Ventajas de contratar el servicio de asesoría laboral para empresas
           </h3>
-          <img src={AsesoriaLaboralMina} alt="" />
+          <motion.img
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1, transition: { duration: 1 } }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            src={AsesoriaLaboralMina}
+            alt=""
+          />
         </div>
 
         <div className="col-lg-6 col-12">

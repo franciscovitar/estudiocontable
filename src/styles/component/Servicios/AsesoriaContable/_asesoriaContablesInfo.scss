@@ -3,20 +3,28 @@
     margin-top: 100px;
 
     div {
-        div:first-child {
+        .imagen {
             text-align: center;
 
             img {
-
                 width: 50vh;
                 height: 50vh;
                 object-fit: cover;
                 border-radius: 100%;
                 padding: 20px;
+
+                @media(max-width: 800px) {
+                    width: 40vh;
+                    height: 40vh;
+                }
             }
+
+
+
+
         }
 
-        div {
+        .texto {
             align-items: center;
 
 
@@ -27,8 +35,5 @@
             }
         }
     }
-
-
-
 
 }

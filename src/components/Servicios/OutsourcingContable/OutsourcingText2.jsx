@@ -66,7 +66,14 @@ function OutsourcingText2() {
           </ul>
         </div>
         <div className="col-12 col-lg-6">
-          <img src={Asesoria} alt="" />
+          <motion.img
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1, transition: { duration: 1 } }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            src={Asesoria}
+            alt=""
+          />
         </div>
       </div>
     </motion.div>

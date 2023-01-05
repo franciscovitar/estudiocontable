@@ -3,9 +3,8 @@ import OutsourcingText from "../components/Servicios/OutsourcingContable/Outsour
 import OutsourcingText2 from "../components/Servicios/OutsourcingContable/OutsourcingText2";
 import OutsourcingVariedad from "../components/Servicios/OutsourcingContable/OutsourcingVariedad";
 import OutsourcingWelcome from "../components/Servicios/OutsourcingContable/OutsourcingWelcome";
-import Contacto from "../components/Landing/Contacto";
+import Contactanos from "../components/Landing/Contactanos";
 import NavBar from "../components/Landing/Navbar";
-import Footer from "../components/Landing/Footer";
 
 function OutSourcing() {
   return (
@@ -15,8 +14,7 @@ function OutSourcing() {
       <OutsourcingText></OutsourcingText>
       <OutsourcingText2></OutsourcingText2>
       <OutsourcingVariedad></OutsourcingVariedad>
-      <Contacto></Contacto>
-      <Footer></Footer>
+      <Contactanos></Contactanos>
     </div>
   );
 }

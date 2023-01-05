@@ -3,9 +3,8 @@ import React from "react";
 import EmpresaWelcome from "../components/Empresa/EmpresaWelcome";
 import EmpresaInfo from "../components/Empresa/EmpresaInfo";
 import EmpresaInfo2 from "../components/Empresa/EmpresaInfo2";
-import Contacto from "../components/Landing/Contacto";
 import NavBar from "../components/Landing/Navbar";
-import Footer from "../components/Landing/Footer";
+import Contactanos from "../components/Landing/Contactanos";
 
 function Empresa() {
   return (
@@ -14,8 +13,7 @@ function Empresa() {
       <EmpresaWelcome></EmpresaWelcome>
       <EmpresaInfo></EmpresaInfo>
       <EmpresaInfo2></EmpresaInfo2>
-      <Contacto></Contacto>
-      <Footer></Footer>
+      <Contactanos></Contactanos>
     </div>
   );
 }

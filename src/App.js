@@ -1,3 +1,4 @@
+import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Conocenos from "./pages/Conocenos";
 
@@ -10,6 +11,7 @@ import AsesoriaAdministrativa from "./pages/AsesoriaAdministrativa";
 import AsesoriaContable from "./pages/AsesoriaContable";
 import Empresa from "./pages/Empresa";
 import ElContacto from "./pages/ElContacto";
+import Footer from "./components/Landing/Footer";
 
 function App() {
   return (
@@ -29,6 +31,7 @@ function App() {
         <Route path="/Empresa" element={<Empresa />} />
         <Route path="/Contacto" element={<ElContacto />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
