@@ -4,12 +4,10 @@ import OutsourcingText2 from "../components/Servicios/OutsourcingContable/Outsou
 import OutsourcingVariedad from "../components/Servicios/OutsourcingContable/OutsourcingVariedad";
 import OutsourcingWelcome from "../components/Servicios/OutsourcingContable/OutsourcingWelcome";
 import Contactanos from "../components/Landing/Contactanos";
-import NavBar from "../components/Landing/Navbar";
 
 function OutSourcing() {
   return (
     <div>
-      <NavBar></NavBar>
       <OutsourcingWelcome></OutsourcingWelcome>
       <OutsourcingText></OutsourcingText>
       <OutsourcingText2></OutsourcingText2>

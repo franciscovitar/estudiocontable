@@ -11,6 +11,7 @@ function FormContacto() {
     <ContactoContainer id="contacto">
       <section className="contacto-container">
         <motion.h2
+          className="text-white"
           initial={{ y: -100, color: "#f1f1f1" }}
           transition={{ duration: 1 }}
           animate={{ y: 0.1, color: "#000" }}
@@ -177,12 +178,14 @@ function FormContacto() {
 export default FormContacto;
 
 const ContactoContainer = styled.div`
-  color: #333;
+  color: #fff;
   padding: 80px 0 165px;
+  background: #444;
   .contacto-container {
     width: 80%;
     margin: 0 auto;
     h2 {
+      color: #fff;
       text-align: center;
       font-size: 2.4rem;
       margin-bottom: 40px;
@@ -197,12 +200,12 @@ const ContactoContainer = styled.div`
       width: 50%;
       margin-right: 20px;
       h3 {
-        color: #000;
+        color: #fff;
         font-size: 1.9rem;
         margin-bottom: 20px;
       }
       p {
-        color: #474b4e;
+        color: #fff;
         font-size: 1.2rem;
         width: 70%;
         margin-bottom: 50px;
@@ -224,7 +227,7 @@ const ContactoContainer = styled.div`
     .mail {
       width: 50%;
       h3 {
-        color: #000;
+        color: #fff;
         font-size: 1.9rem;
         margin-bottom: 20px;
       }
@@ -234,7 +237,8 @@ const ContactoContainer = styled.div`
           margin-bottom: 20px;
         }
         label {
-          color: #474b4e;
+          color: #fff;
+          margin-bottom: 5px;
           font-weight: bold;
           font-size: 1.07rem;
         }
@@ -249,6 +253,9 @@ const ContactoContainer = styled.div`
           border: none;
           outline: none;
           border-radius: 10px;
+          &::placeholder {
+            color: #000;
+          }
         }
         textarea {
           min-width: 100px;
@@ -259,7 +266,6 @@ const ContactoContainer = styled.div`
           background: hsl(176, 50%, 47%);
           padding: 10px 40px;
           margin-bottom: 20px;
-          margin-left: 10px;
           font-size: 1.3rem;
           border: none;
           border-radius: 25px;
@@ -365,7 +371,7 @@ const ContactoContainer = styled.div`
             margin-bottom: 7px;
           }
           label {
-            color: #575b5e;
+            color: #fff;
             font-size: 1.02rem;
             text-align: left;
           }

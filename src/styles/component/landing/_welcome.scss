@@ -2,17 +2,23 @@
     background-image: url("../../../image/pexels-karolina-grabowska-7681092.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
     background-attachment: fixed;
     position: relative;
     display: flex;
     align-items: center;
-    padding-top: 10%;
+    padding-left: 50px;
 
+    @media(max-width: 1000px) {
+        padding-left: 50px;
+    }
 
     @media(max-width: 768px) {
         height: 60vh;
+        padding: 50px 10px 10px;
     }
+
+
 
     &::before {
         content: "";
@@ -27,7 +33,8 @@
     div {
         color: rgb(255, 255, 255);
         position: relative;
-        max-width: 600px;
+        max-width: 700px;
+        width: 100%;
 
         @media(min-width: 768px) {
             display: flex;
@@ -40,15 +47,27 @@
         h1,
         h5 {
             font-weight: bold;
-        }
 
-        h1 {
-            font-size: 50px;
-            margin: 10px 0 20px 0;
 
-            @media(max-width: 768px) {
-                font-size: 30px;
+            h1 {
+                font-size: 50px;
+                margin: 10px 0 20px 0;
+
+                @media(max-width: 768px) {
+                    font-size: 30px;
+                }
+
+                @media(max-width: 400px) {
+                    font-size: 15px;
+                }
             }
+
+            h5 {
+                @media(max-width: 400px) {
+                    font-size: 20px;
+                }
+            }
+
         }
 
         button {

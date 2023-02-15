@@ -5,12 +5,10 @@ import Equipo from "../components/Landing/Equipo";
 import Sede from "../components/Landing/Sede";
 import Servicios from "../components/Landing/Servicios";
 import Welcome from "../components/Landing/Welcome";
-import NavBar from "../components/Landing/Navbar";
 
 function Home() {
   return (
     <div>
-      <NavBar></NavBar>
       <Welcome></Welcome>
       <Sede></Sede>
       <Servicios></Servicios>

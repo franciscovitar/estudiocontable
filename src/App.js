@@ -12,10 +12,12 @@ import AsesoriaContable from "./pages/AsesoriaContable";
 import Empresa from "./pages/Empresa";
 import ElContacto from "./pages/ElContacto";
 import Footer from "./components/Landing/Footer";
+import NavBarGood from "./components/Landing/NavBarGood";
 
 function App() {
   return (
     <BrowserRouter>
+      <NavBarGood></NavBarGood>
       <Routes>
         <Route index element={<Home />} />
         <Route path="/conocenos" element={<Conocenos />} />
