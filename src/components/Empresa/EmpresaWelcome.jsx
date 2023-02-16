@@ -5,15 +5,27 @@ import { motion } from "framer-motion";
 function EmpresaWelcome() {
   return (
     <div className="EmpresaWelcome-container">
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
-        viewport={{ once: true }}
-        className="container"
-      >
-        <h3>Constituye tu empresa con nosotros</h3>
-        <p>
+      <motion.div className="container">
+        <motion.h3
+          viewport={{ once: true }}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: { duration: 0.5, delay: 0 },
+          }}
+        >
+          Constituye tu empresa con nosotros
+        </motion.h3>
+        <motion.p
+          viewport={{ once: true }}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: { duration: 0.5, delay: 0.2 },
+          }}
+        >
           ¿Tiene un negocio y aún no lo ha registrado? Muchos no formalizan sus
           emprendimientos por desconocer todo el proceso que implica la
           <span>constitución de empresas</span>, ¡pero esto debe cambiar! Si tu
@@ -21,9 +33,20 @@ function EmpresaWelcome() {
           le brindamos la <span>asesoría en constitución de empresas</span> que
           necesita para que trabaje conforme a la ley y disfrute de los
           beneficios de la formalización.{" "}
-        </p>
+        </motion.p>
         <Link to="/Contacto">
-          <motion.button whileHover={{ scale: 1.2 }}>Contáctanos</motion.button>
+          <motion.button
+            viewport={{ once: true }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+              transition: { duration: 0.5, delay: 0.4 },
+            }}
+            whileHover={{ scale: 1.2 }}
+          >
+            Contáctanos
+          </motion.button>
         </Link>
       </motion.div>
     </div>

@@ -8,6 +8,10 @@
             margin: 50px;
             font-weight: bold;
             font-size: 30px;
+
+            @media(max-width: 400px) {
+                font-size: 25px;
+            }
         }
     }
 
@@ -26,6 +30,11 @@
                 height: 250px;
                 border-radius: 100%;
                 object-fit: cover;
+
+                @media(max-width: 400px) {
+                    width: 200px;
+                    height: 200px;
+                }
 
             }
 

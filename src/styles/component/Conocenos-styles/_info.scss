@@ -3,6 +3,10 @@
 
     span {
         font-weight: bold;
+
+        @media(max-width: 400px) {
+            font-size: 12px;
+        }
     }
 
     .texto {
@@ -11,6 +15,10 @@
 
         p {
             text-align: start;
+
+            @media(max-width: 400px) {
+                font-size: 12px;
+            }
         }
 
         img {
@@ -23,6 +31,11 @@
             @media(max-width: 800px) {
                 width: 40vh;
                 height: 40vh;
+            }
+
+            @media(max-width: 400px) {
+                width: 30vh;
+                height: 30vh;
             }
         }
 
@@ -51,10 +64,18 @@
             h3 {
                 color: $dark-blue;
                 font-weight: bold;
+
+                @media(max-width: 400px) {
+                    font-size: 18px;
+                }
             }
 
             p {
                 margin: 0;
+
+                @media(max-width: 400px) {
+                    font-size: 12px;
+                }
 
             }
         }

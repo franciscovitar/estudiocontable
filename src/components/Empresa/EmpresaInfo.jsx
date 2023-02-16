@@ -6,13 +6,7 @@ import Contadores from "../../image/pexels-karolina-grabowska-7681097.jpg";
 function EmpresaInfo() {
   return (
     <div className="EmpresaInfo-container container">
-      <motion.div
-        className="row"
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
-        viewport={{ once: true }}
-      >
+      <motion.div className="row">
         <div className="col-12 col-lg-6">
           <motion.img
             initial={{ opacity: 0, scale: 0 }}
@@ -24,7 +18,15 @@ function EmpresaInfo() {
           />
         </div>
         <div className="col-12 col-lg-6">
-          <p>
+          <motion.p
+            viewport={{ once: true }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+              transition: { duration: 0.5, delay: 0 },
+            }}
+          >
             Las{" "}
             <span>
               características y costo de servicio de constitución de empresas
@@ -35,22 +37,46 @@ function EmpresaInfo() {
             <span>constitución de empresas</span>, pero nosotros también ¡Todas
             nuestras energías estarán concentradas exclusivamente en la
             formalización de su negocio!
-          </p>
-          <p>
+          </motion.p>
+          <motion.p
+            viewport={{ once: true }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+              transition: { duration: 0.5, delay: 0.2 },
+            }}
+          >
             Le guiaremos en cada paso que implique la{" "}
             <span>constitución de empresa </span> o, mejor aún, ¡Lo haremos todo
             por usted!
-          </p>
-          <p>
+          </motion.p>
+          <motion.p
+            viewport={{ once: true }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+              transition: { duration: 0.5, delay: 0.4 },
+            }}
+          >
             ¡Cuéntenos qué necesita! ¿{" "}
             <span>Orientación en la constitución de empresas</span>? Quizá saber
             los <span>costos para constituir una empresa</span>. Cualquier
             asunto que requiera para formalizar su emprendimiento lo atenderemos
             de forma eficiente, rápida y asequible.
-          </p>
-          <p>
+          </motion.p>
+          <motion.p
+            viewport={{ once: true }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+              transition: { duration: 0.5, delay: 0.6 },
+            }}
+          >
             ¡<span>CONSTITUYE TU EMPRESA </span>CON NOSOTROS!
-          </p>
+          </motion.p>
         </div>
       </motion.div>
     </div>

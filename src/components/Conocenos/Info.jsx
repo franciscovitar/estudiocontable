@@ -30,11 +30,27 @@ function Info() {
           />
         </div>
         <div className="col-12 col-lg-6">
-          <p>
+          <motion.p
+            viewport={{ once: true }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+              transition: { duration: 0.5, delay: 0 },
+            }}
+          >
             Somos un <span>Estudio Contable</span> con más de 10 años de
             experiencia en el mercado.
-          </p>
-          <p>
+          </motion.p>
+          <motion.p
+            viewport={{ once: true }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+              transition: { duration: 0.5, delay: 0.2 },
+            }}
+          >
             Brindamos soluciones en
             <span>
               Asesoría Contable, Asesoría Tributaria, Asesoría Laboral, Asesoría
@@ -44,8 +60,16 @@ function Info() {
             inician operaciones o ya tienen presencia en el mercado, ofreciendo
             un soporte y acompañamiento para el logro de sus objetivos
             contables, tributarios y financieros.
-          </p>
-          <p>
+          </motion.p>
+          <motion.p
+            viewport={{ once: true }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+              transition: { duration: 0.5, delay: 0.2 },
+            }}
+          >
             Nuestro estudio contable cuenta con profesionales con gran
             trayectoria y experiencia en empresas de gran envergadura de
             diferentes sectores de negocio, como construcción, minería,
@@ -55,8 +79,16 @@ function Info() {
             <span>(know-how)</span> adecuados para brindar soluciones en el
             menor tiempo y costo, superando las expectativas de nuestros
             clientes Mypes y pymes.
-          </p>
-          <p>
+          </motion.p>
+          <motion.p
+            viewport={{ once: true }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+              transition: { duration: 0.5, delay: 0.4 },
+            }}
+          >
             Nuestros principales clientes son micro y pequeñas empresas,
             principalmente nuevas en el mercado, es por ello que los asesoramos
             desde su constitución hasta la puesta en marcha de su empresa.
@@ -68,7 +100,7 @@ function Info() {
             cuales están orientadas a satisfacer sus necesidades con un servicio
             de calidad. Somos una empresa muy flexible por lo que nos adaptamos
             a las necesidades de nuestros clientes.{" "}
-          </p>
+          </motion.p>
         </div>
       </motion.div>
 
@@ -81,16 +113,84 @@ function Info() {
         viewport={{ once: true }}
         className="row items container-fluid"
       >
-        <div className="col-lg-4">
+        <motion.div
+          viewport={{ once: true }}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: { duration: 0.5, delay: 0 },
+          }}
+          className="col-lg-4"
+        >
           <img src={Icono1} alt="" />
           <h3>Nuestros Principios</h3>
-          <p>1-Compromiso</p>
-          <p>2-Integridad</p>
-          <p>3-Trabajo en equipo</p>
-          <p>4-Honestidad</p>
-          <p>5-Respeto</p>
-        </div>
-        <div className="col-lg-4">
+          <motion.p
+            viewport={{ once: true }}
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{
+              opacity: 1,
+              x: 0,
+              transition: { duration: 0.5, delay: 0 },
+            }}
+          >
+            1-Compromiso
+          </motion.p>
+          <motion.p
+            viewport={{ once: true }}
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{
+              opacity: 1,
+              x: 0,
+              transition: { duration: 0.5, delay: 0.1 },
+            }}
+          >
+            2-Integridad
+          </motion.p>
+          <motion.p
+            viewport={{ once: true }}
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{
+              opacity: 1,
+              x: 0,
+              transition: { duration: 0.5, delay: 0.2 },
+            }}
+          >
+            3-Trabajo en equipo
+          </motion.p>
+          <motion.p
+            viewport={{ once: true }}
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{
+              opacity: 1,
+              x: 0,
+              transition: { duration: 0.5, delay: 0.3 },
+            }}
+          >
+            4-Honestidad
+          </motion.p>
+          <motion.p
+            viewport={{ once: true }}
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{
+              opacity: 1,
+              x: 0,
+              transition: { duration: 0.5, delay: 0.4 },
+            }}
+          >
+            5-Respeto
+          </motion.p>
+        </motion.div>
+        <motion.div
+          viewport={{ once: true }}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: { duration: 0.5, delay: 0.2 },
+          }}
+          className="col-lg-4"
+        >
           <img src={Icono2} alt="" />
           <h3>Misión</h3>
           <p>
@@ -99,8 +199,17 @@ function Info() {
             de nuestros clientes, superando con satisfacción las expectativas en
             cuanto a calidad, costo y tiempo"
           </p>
-        </div>
-        <div className="col-lg-4">
+        </motion.div>
+        <motion.div
+          viewport={{ once: true }}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: { duration: 0.5, delay: 0.4 },
+          }}
+          className="col-lg-4"
+        >
           <img src={Icono3} alt="" />
           <h3>Visión</h3>
           <p>
@@ -111,7 +220,7 @@ function Info() {
             operaciones de nuestros clientes, colaboradores, accionistas y
             sociedad."
           </p>
-        </div>
+        </motion.div>
       </motion.div>
     </div>
   );

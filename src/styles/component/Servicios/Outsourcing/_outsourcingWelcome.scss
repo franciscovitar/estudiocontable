@@ -4,7 +4,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    height: 80vh;
+    height: 100vh;
     background-attachment: fixed;
     display: flex;
     align-items: center;
@@ -23,11 +23,9 @@
     div {
         position: relative;
         color: #fff;
-        max-width: 500px;
+        max-width: 700px;
+        text-align: center;
 
-        @media(min-width: 768px) {
-            margin-left: 10%;
-        }
 
         h2 {
             font-weight: bold;
@@ -36,10 +34,18 @@
             @media(max-width: 800px) {
                 font-size: 30px;
             }
+
+            @media(max-width: 400px) {
+                font-size: 20px;
+            }
         }
 
         p {
             margin: 30px 0;
+
+            @media(max-width: 400px) {
+                font-size: 15px;
+            }
         }
 
         button {

@@ -14,7 +14,17 @@ function Equipo() {
       viewport={{ once: true }}
     >
       <div>
-        <h1>Nuestro equipo de contadores</h1>
+        <motion.h1
+          viewport={{ once: true }}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: { duration: 0.5, delay: 0 },
+          }}
+        >
+          Nuestro equipo de contadores
+        </motion.h1>
       </div>
 
       <div className="row">
@@ -27,13 +37,31 @@ function Equipo() {
             src={Peruano1}
             alt="d"
           />
-          <h5>CPC Juan Carlos Sanchez</h5>
-          <p>
+          <motion.h5
+            viewport={{ once: true }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+              transition: { duration: 0.5, delay: 0 },
+            }}
+          >
+            CPC Juan Carlos Sanchez
+          </motion.h5>
+          <motion.p
+            viewport={{ once: true }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+              transition: { duration: 0.5, delay: 0.2 },
+            }}
+          >
             Contador titulado por la Universidad Nacional del Callao y Magister
             en Administración de Empresas por la Universidad del Pacifico.
             Cuenta con más de 10 años de experiencia trabajando en empresas de
             servicios, construcción, comerciales, mineras y otras.
-          </p>
+          </motion.p>
         </div>
         <div className="col-sm-12 col-lg-5">
           <motion.img
@@ -44,15 +72,33 @@ function Equipo() {
             src={Peruano2}
             alt="d"
           />
-          <h5>CPC Maria Juliana García</h5>
-          <p>
+          <motion.h5
+            viewport={{ once: true }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+              transition: { duration: 0.5, delay: 0 },
+            }}
+          >
+            CPC Maria Juliana García
+          </motion.h5>
+          <motion.p
+            viewport={{ once: true }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+              transition: { duration: 0.5, delay: 0.2 },
+            }}
+          >
             Contadora titulada por la Universidad Nacional del Callao, con
             especialización en Normas Internacionales de Contabilidad por la
             Pontificia Universidad Católica del Perú, y especialización en
             Tributación por el Colegio de Contadores del Callao. Cuenta con más
             de 10 años de experiencia trabajando en empresas de servicios e
             industriales.
-          </p>
+          </motion.p>
         </div>
       </div>
     </motion.div>

@@ -74,6 +74,59 @@
                         border-bottom: 1px solid $Moderatecyan;
                     }
                 }
+
+                .pedro {
+                    display: flex;
+                    gap: 5px;
+                    align-items: center;
+                    cursor: pointer;
+
+                    i {
+                        font-size: 15px;
+                    }
+
+                }
+
+                .selects {
+
+                    flex-direction: column;
+                    position: absolute;
+                    margin-top: 10px;
+                    border-radius: 5px;
+                    border: solid 1px #fff;
+
+                    &.light-mode {
+                        background-color: #fff;
+
+                        p {
+                            color: #111;
+                        }
+                    }
+
+                    p {
+
+                        text-decoration: none;
+                        font-weight: 500;
+                        padding: 5px;
+                        margin: 0;
+                        width: 100%;
+                        color: #fff;
+
+
+                        &.selected {
+                            background-color: $Moderatecyan;
+                            color: #ffffff;
+                        }
+
+                        &:hover {
+                            color: #ffffff;
+                            background-color: $Moderatecyan;
+                        }
+                    }
+
+
+                }
+
             }
 
             i {
@@ -121,9 +174,47 @@
                 font-size: 30px;
                 font-weight: bold;
 
-                &:hover {
-                    border-bottom: 1px solid #111
+            }
+
+            .pedro {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                cursor: pointer;
+
+
+                a {
+                    text-align: center;
+
+                    &:hover {
+                        color: #fff;
+
+                    }
                 }
+            }
+
+            .selects {
+                text-align: center;
+                flex-direction: column;
+                margin-top: 10px;
+                border-radius: 5px;
+
+                a {
+
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 20px;
+                    font-weight: bold;
+
+                    &:hover {
+                        color: #ffffff;
+                        background-color: $Moderatecyan;
+
+                    }
+                }
+
+
             }
         }
 

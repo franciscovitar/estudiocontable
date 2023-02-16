@@ -22,6 +22,11 @@
             width: 40vh;
             height: 40vh;
         }
+
+        @media(max-width: 400px) {
+            width: 30vh;
+            height: 30vh;
+        }
     }
 
     button {

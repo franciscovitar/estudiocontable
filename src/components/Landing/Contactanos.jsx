@@ -7,7 +7,7 @@ function Contactanos() {
     <div className="contactanos-container">
       <motion.div
         initial={{ scale: 0 }}
-        whileInView={{ scale: 1 }}
+        whileInView={{ scale: 1, transition: { duration: 0.5 } }}
         viewport={{ once: true }}
         className="texto"
       >

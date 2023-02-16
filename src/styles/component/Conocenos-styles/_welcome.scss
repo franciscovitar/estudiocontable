@@ -4,14 +4,13 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 60vh;
+    height: 100vh;
     display: flex;
     position: relative;
     align-items: center;
+    justify-content: center;
+    text-align: center;
 
-    @media(min-width: 768px) {
-        justify-content: center;
-    }
 
     &::before {
         content: "";

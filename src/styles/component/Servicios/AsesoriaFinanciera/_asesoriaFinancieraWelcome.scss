@@ -3,12 +3,12 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 60vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     background-attachment: fixed;
     position: relative;
-    padding-top: 10%;
+    justify-content: center;
 
     &::before {
         content: "";
@@ -24,6 +24,7 @@
         color: #fff;
         position: relative;
         text-align: center;
+        max-width: 700px;
 
         h2 {
             font-weight: bold;

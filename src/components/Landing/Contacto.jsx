@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import styled from "styled-components";
 import { motion } from "framer-motion";
 import { Formik } from "formik";
 import axios from "axios";
@@ -8,8 +7,8 @@ function FormContacto() {
   const [formularioEnviado, cambiarFormularioEnviado] = useState(false);
 
   return (
-    <ContactoContainer id="contacto">
-      <section className="contacto-container">
+    <div id="contacto" className="contacto-container">
+      <section className="contacto-container-2">
         <motion.h2
           className="text-white"
           initial={{ y: -100, color: "#f1f1f1" }}
@@ -38,7 +37,6 @@ function FormContacto() {
               whileTap={{ scale: 0.9 }}
             >
               Enviar Whatsapp
-              {/* <WspLogo/> */}
             </motion.a>
           </div>
           <div className="mail">
@@ -111,13 +109,13 @@ function FormContacto() {
                 handleBlur,
               }) => (
                 <form className="formulario" onSubmit={handleSubmit}>
-                  <div>
+                  <div className="inputs">
                     <label htmlFor="nombre">Nombre</label>
                     <input
                       type="text"
                       id="nombre"
                       name="nombre"
-                      placeholder="Escribe tu nombre"
+                      placeholder="Escribe tu nombre..."
                       value={values.nombre}
                       onChange={handleChange}
                       onBlur={handleBlur}
@@ -126,13 +124,13 @@ function FormContacto() {
                       <div className="error">{errors.nombre}</div>
                     )}
                   </div>
-                  <div>
+                  <div className="inputs">
                     <label htmlFor="correo">Correo</label>
                     <input
                       type="email"
                       id="correo"
                       name="correo"
-                      placeholder="Escribe tu dirección de correo"
+                      placeholder="Escribe tu dirección de correo..."
                       value={values.correo}
                       onChange={handleChange}
                       onBlur={handleBlur}
@@ -141,12 +139,12 @@ function FormContacto() {
                       <div className="error">{errors.correo}</div>
                     )}
                   </div>
-                  <div>
+                  <div className="inputs">
                     <label htmlFor="descripcion">Mensaje</label>
                     <textarea
                       id="descripcion"
                       name="descripcion"
-                      placeholder="Escribe tu mensaje"
+                      placeholder="Escribe tu mensaje..."
                       value={values.descripcion}
                       onChange={handleChange}
                       onBlur={handleBlur}
@@ -171,229 +169,8 @@ function FormContacto() {
           </div>
         </motion.div>
       </section>
-    </ContactoContainer>
+    </div>
   );
 }
 
 export default FormContacto;
-
-const ContactoContainer = styled.div`
-  color: #fff;
-  padding: 80px 0 165px;
-  background: #444;
-  .contacto-container {
-    width: 80%;
-    margin: 0 auto;
-    h2 {
-      color: #fff;
-      text-align: center;
-      font-size: 2.4rem;
-      margin-bottom: 40px;
-      margin-top: 120px;
-    }
-  }
-  .met-contacto {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    .wsp {
-      width: 50%;
-      margin-right: 20px;
-      h3 {
-        color: #fff;
-        font-size: 1.9rem;
-        margin-bottom: 20px;
-      }
-      p {
-        color: #fff;
-        font-size: 1.2rem;
-        width: 70%;
-        margin-bottom: 50px;
-      }
-      a {
-        font-size: 1.3rem;
-        color: #fff;
-        background: hsl(176, 50%, 47%);
-        text-decoration: none;
-        padding: 20px;
-        display: flex;
-        width: 80%;
-        align-items: center;
-        justify-content: center;
-        border-radius: 30px;
-        // filter: drop-shadow(5px 5px 8px #9F9F9F);
-      }
-    }
-    .mail {
-      width: 50%;
-      h3 {
-        color: #fff;
-        font-size: 1.9rem;
-        margin-bottom: 20px;
-      }
-      .formulario {
-        overflow: hidden;
-        div {
-          margin-bottom: 20px;
-        }
-        label {
-          color: #fff;
-          margin-bottom: 5px;
-          font-weight: bold;
-          font-size: 1.07rem;
-        }
-        input,
-        textarea {
-          background: #e0e0e0;
-          font-size: 1rem;
-          padding: 10px;
-          display: block;
-          width: 100%;
-          min-height: 40px;
-          border: none;
-          outline: none;
-          border-radius: 10px;
-          &::placeholder {
-            color: #000;
-          }
-        }
-        textarea {
-          min-width: 100px;
-          min-height: 80px;
-        }
-        button {
-          color: #fff;
-          background: hsl(176, 50%, 47%);
-          padding: 10px 40px;
-          margin-bottom: 20px;
-          font-size: 1.3rem;
-          border: none;
-          border-radius: 25px;
-          // filter: drop-shadow(5px 5px 8px #9F9F9F);
-          cursor: pointer;
-        }
-      }
-    }
-  }
-  .error {
-    color: red;
-  }
-  .exito {
-    color: green;
-  }
-  @media (max-width: 800px) {
-    .contacto-container {
-      width: 95%;
-      h2 {
-        font-size: 2.3rem;
-      }
-    }
-    .met-contacto {
-      .wsp {
-        h3 {
-          font-size: 1.5rem;
-          margin-bottom: 5px;
-        }
-        p {
-          font-size: 1.05rem;
-        }
-        a {
-          font-size: 1.2rem;
-          padding: 15px;
-        }
-      }
-      .mail {
-        h3 {
-          font-size: 1.5rem;
-        }
-        .formulario {
-          label {
-            font-size: 1.03rem;
-          }
-          input,
-          textarea {
-            font-size: 0.9rem;
-            padding: 7px 10px;
-            min-height: 30px;
-          }
-          button {
-            font-size: 1.2rem;
-          }
-        }
-      }
-    }
-  }
-  @media (max-width: 500px) {
-    .contacto-container {
-      width: 90%;
-      h2 {
-        font-size: 2.2rem;
-        margin-bottom: 35px;
-      }
-    }
-    .met-contacto {
-      flex-direction: column;
-
-      .wsp {
-        width: 100%;
-        margin-right: 0;
-        text-align: center;
-        h3 {
-          font-size: 1.3rem;
-        }
-        p {
-          font-size: 1.1rem;
-          width: 90%;
-          margin: 0 auto;
-          margin-bottom: 20px;
-        }
-        a {
-          font-size: 1.2rem;
-          padding: 14px;
-          width: 90%;
-          margin: 0 auto;
-          margin-bottom: 80px;
-          filter: drop-shadow(5px 5px 8px #909090);
-        }
-      }
-      .mail {
-        width: 100%;
-
-        h3 {
-          text-align: center;
-          font-size: 1.3rem;
-          margin-bottom: 30px;
-        }
-        .formulario {
-          div {
-            width: 90%;
-            margin: 0 auto;
-            margin-bottom: 7px;
-          }
-          label {
-            color: #fff;
-            font-size: 1.02rem;
-            text-align: left;
-          }
-          input,
-          textarea {
-            font-size: 0.9rem;
-            padding: 8px;
-          }
-          textarea {
-            max-width: 100%;
-          }
-          button {
-            width: 90%;
-            margin: 0 auto;
-            margin-bottom: 20px;
-            display: block;
-            padding: 10px 20px;
-            font-size: 1.15rem;
-            filter: drop-shadow(5px 5px 8px #909090);
-          }
-        }
-      }
-    }
-  }
-`;

@@ -11,25 +11,45 @@ import Icono6 from "../../image/goal_analytics_graph_chart_increase_grow_up_icon
 
 function Servicios() {
   return (
-    <motion.div
-      className="servicios-container  container"
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{ duration: 0.5 }}
-      viewport={{ once: true }}
-      id="servicios"
-    >
+    <div className="servicios-container  container" id="servicios">
       {/* <a name="servicios"></a> */}
       <div className="texto">
-        <h2>Nuestros servicios contables</h2>
-        <p>
+        <motion.h2
+          viewport={{ once: true }}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: { duration: 0.5, delay: 0 },
+          }}
+        >
+          Nuestros servicios contables
+        </motion.h2>
+        <motion.p
+          viewport={{ once: true }}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: { duration: 0.5, delay: 0.2 },
+          }}
+        >
           Mas de 10 años de experiencia al servicio de su empresa. Equipo
           profesional con vasta trayectoria atendiendo diferentes sectores.
-        </p>
+        </motion.p>
       </div>
 
       <div className="row">
-        <div className="col-xs-12 col-md-6 col-xl-4">
+        <motion.div
+          viewport={{ once: true }}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: { duration: 0.5, delay: 0 },
+          }}
+          className="col-xs-12 col-md-6 col-xl-4"
+        >
           <img src={Icono1} alt="" />
           <h3>Outsourcing Contable</h3>
           <p>
@@ -41,8 +61,17 @@ function Servicios() {
           <Link to="/Outsourcing">
             <motion.button whileHover={{ scale: 1.1 }}>VER MÁS</motion.button>
           </Link>
-        </div>
-        <div className="col-xs-12 col-md-6 col-xl-4">
+        </motion.div>
+        <motion.div
+          viewport={{ once: true }}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: { duration: 0.5, delay: 0.1 },
+          }}
+          className="col-xs-12 col-md-6 col-xl-4"
+        >
           <img src={Icono2} alt="" />
           <h3>Asesoría Tributaría</h3>
           <p>
@@ -54,8 +83,17 @@ function Servicios() {
           <Link to="/AsesoriaTributaria">
             <motion.button whileHover={{ scale: 1.1 }}>VER MÁS</motion.button>
           </Link>
-        </div>
-        <div className="col-xs-12 col-md-6 col-xl-4">
+        </motion.div>
+        <motion.div
+          viewport={{ once: true }}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: { duration: 0.5, delay: 0.2 },
+          }}
+          className="col-xs-12 col-md-6 col-xl-4"
+        >
           <img src={Icono3} alt="" />
           <h3>Asesoría Laboral</h3>
           <p>
@@ -66,8 +104,17 @@ function Servicios() {
           <Link to="/AsesoriaLaboral">
             <motion.button whileHover={{ scale: 1.1 }}>VER MÁS</motion.button>
           </Link>
-        </div>
-        <div className="col-xs-12 col-md-6 col-xl-4">
+        </motion.div>
+        <motion.div
+          viewport={{ once: true }}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: { duration: 0.5, delay: 0.3 },
+          }}
+          className="col-xs-12 col-md-6 col-xl-4"
+        >
           <img src={Icono4} alt="" />
 
           <h3>Asesoría Contable</h3>
@@ -79,8 +126,17 @@ function Servicios() {
           <Link to="/AsesoriaContable">
             <motion.button whileHover={{ scale: 1.1 }}>VER MÁS</motion.button>
           </Link>
-        </div>
-        <div className="col-xs-12 col-md-6 col-xl-4">
+        </motion.div>
+        <motion.div
+          viewport={{ once: true }}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: { duration: 0.5, delay: 0.4 },
+          }}
+          className="col-xs-12 col-md-6 col-xl-4"
+        >
           <img src={Icono5} alt="" />
           <h3>Asesoría Financiera</h3>
           <p>
@@ -91,8 +147,17 @@ function Servicios() {
           <Link to="/AsesoriaFinanciera">
             <motion.button whileHover={{ scale: 1.1 }}>VER MÁS</motion.button>
           </Link>
-        </div>
-        <div className="col-xs-12 col-md-6 col-xl-4">
+        </motion.div>
+        <motion.div
+          viewport={{ once: true }}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: { duration: 0.5, delay: 0.5 },
+          }}
+          className="col-xs-12 col-md-6 col-xl-4"
+        >
           <img src={Icono6} alt="" />
           <h3>Asesoría Administrativa</h3>
           <p>
@@ -103,9 +168,9 @@ function Servicios() {
           <Link to="/AsesoriaAdministrativa">
             <motion.button whileHover={{ scale: 1.1 }}>VER MÁS</motion.button>
           </Link>
-        </div>
+        </motion.div>
       </div>
-    </motion.div>
+    </div>
   );
 }
 

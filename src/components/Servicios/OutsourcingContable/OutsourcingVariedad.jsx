@@ -11,7 +11,7 @@ function OutsourcingVariedad() {
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 3 }}
         viewport={{ once: true }}
         className="titulo"
       >

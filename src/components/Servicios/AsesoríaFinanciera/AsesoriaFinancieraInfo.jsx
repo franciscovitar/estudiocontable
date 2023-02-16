@@ -72,45 +72,45 @@ function AsesoriaFinancieraInfo() {
         </p>
         <p>
           Estas son otras ventajas de la asesoría financiera, para su empresa:
-          <ul>
-            <li>Podrá fijar metas financieras alcanzables.</li>
-            <li>
-              Podrá desarrollar un plan razonable para alcanzar las metas
-              trazadas.
-            </li>
-            <li>Logrará ser consciente de su estado financiero real.</li>
-            <li>
-              Disminuirá los costos financieros y maximizará el valor de su
-              empresa.
-            </li>
-            <li>
-              Sus procesos contables y financieros serán transparentes lo que
-              permitirá que su empresa sea confiable ante el sistema financiero.
-            </li>
-            <li>
-              Su compañía tendrá la información económica necesaria para
-              facilitar la toma de decisiones.
-            </li>
-            <li>
-              El servicio de <span>asesoría financiera y contable</span> ayuda a
-              la empresas a preparar sus impuestos de manera eficiente,
-              mitigando el margen de error.
-            </li>
-            <li>
-              La asesoría financiera también puede permitirle a un negocio
-              conocer sus oportunidades de inversión.
-            </li>
-            <li>
-              Gracias a la asesoría financiera es posible facilitar la expansión
-              de su corporación en mercados de fácil penetración y mayor
-              rentabilidad.
-            </li>
-            <li>
-              Evitará que su empresa incumpla la ley, en cuanto a aspectos
-              financieros, contables, tributarios y laborales se refiera.
-            </li>
-          </ul>
         </p>
+        <ul>
+          <li>Podrá fijar metas financieras alcanzables.</li>
+          <li>
+            Podrá desarrollar un plan razonable para alcanzar las metas
+            trazadas.
+          </li>
+          <li>Logrará ser consciente de su estado financiero real.</li>
+          <li>
+            Disminuirá los costos financieros y maximizará el valor de su
+            empresa.
+          </li>
+          <li>
+            Sus procesos contables y financieros serán transparentes lo que
+            permitirá que su empresa sea confiable ante el sistema financiero.
+          </li>
+          <li>
+            Su compañía tendrá la información económica necesaria para facilitar
+            la toma de decisiones.
+          </li>
+          <li>
+            El servicio de <span>asesoría financiera y contable</span> ayuda a
+            la empresas a preparar sus impuestos de manera eficiente, mitigando
+            el margen de error.
+          </li>
+          <li>
+            La asesoría financiera también puede permitirle a un negocio conocer
+            sus oportunidades de inversión.
+          </li>
+          <li>
+            Gracias a la asesoría financiera es posible facilitar la expansión
+            de su corporación en mercados de fácil penetración y mayor
+            rentabilidad.
+          </li>
+          <li>
+            Evitará que su empresa incumpla la ley, en cuanto a aspectos
+            financieros, contables, tributarios y laborales se refiera.
+          </li>
+        </ul>
       </motion.div>
 
       {/* THIRD */}
@@ -138,39 +138,39 @@ function AsesoriaFinancieraInfo() {
             concentran en pymes y mypes, sino también en negocios que todavía no
             están constituidos. De esa forma, para estos emprendimientos,
             ofrecemos:
-            <ul>
-              <li>Revisión y/o elaboración de plan de negocio.</li>
-              <li>Implementación del plan de negocio.</li>
-              <li>Revisión de la idea de negocios.</li>
-              <li>
-                Revisión de aspectos macroeconómicos y microeconómicos de su
-                emprendimiento.
-              </li>
-              <li>Sondeo de mercado.</li>
-              <li>Análisis del modelo de negocio.</li>
-              <li>Análisis de la cadena de valor.</li>
-              <li>
-                Análisis de los recursos y la capacidad, para el éxito de la
-                empresa.
-              </li>
-              <li>Elaboración del planeamiento estratégico.</li>
-              <li>
-                Creación de planes funcionales de operaciones, marketing y
-                recursos humanos.
-              </li>
-              <li>
-                Elaboración del plan financiero, por ejemplo:
-                <ul>
-                  <li>Presupuesto.</li>
-                  <li>Flujo de caja económico.</li>
-                  <li>Flujo de Caja Financiero.</li>
-                  <li>VAN</li>
-                  <li>TIR</li>
-                  <li>Análisis de sensibilidad.</li>
-                </ul>
-              </li>
-            </ul>
           </p>
+          <ul>
+            <li>Revisión y/o elaboración de plan de negocio.</li>
+            <li>Implementación del plan de negocio.</li>
+            <li>Revisión de la idea de negocios.</li>
+            <li>
+              Revisión de aspectos macroeconómicos y microeconómicos de su
+              emprendimiento.
+            </li>
+            <li>Sondeo de mercado.</li>
+            <li>Análisis del modelo de negocio.</li>
+            <li>Análisis de la cadena de valor.</li>
+            <li>
+              Análisis de los recursos y la capacidad, para el éxito de la
+              empresa.
+            </li>
+            <li>Elaboración del planeamiento estratégico.</li>
+            <li>
+              Creación de planes funcionales de operaciones, marketing y
+              recursos humanos.
+            </li>
+            <li>
+              Elaboración del plan financiero, por ejemplo:
+              <ul>
+                <li>Presupuesto.</li>
+                <li>Flujo de caja económico.</li>
+                <li>Flujo de Caja Financiero.</li>
+                <li>VAN</li>
+                <li>TIR</li>
+                <li>Análisis de sensibilidad.</li>
+              </ul>
+            </li>
+          </ul>
         </div>
         <div>
           <p>
