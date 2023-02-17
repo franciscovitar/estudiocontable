@@ -56,13 +56,12 @@ function NavBarGood() {
             >
               Nosotros
             </a>
-            <div className="servicios">
-              <div
-                onClick={() => {
-                  setServicios(!servicios);
-                }}
-                className="pedro"
-              >
+            <div
+              onMouseEnter={() => setServicios(true)}
+              onMouseLeave={() => setServicios(false)}
+              className="servicios"
+            >
+              <div className="pedro">
                 <a className={navbar ? "text-secondary" : "text-white"}>
                   Servicios
                 </a>
