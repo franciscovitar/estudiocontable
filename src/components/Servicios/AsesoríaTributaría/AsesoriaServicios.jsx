@@ -153,7 +153,7 @@ function AsesoriaServicios() {
             Nuestra empresa de <span>asesoría tributaria </span>
             cuenta con el equipo de <span>contadores profesionales</span> de
             amplia experiencia que usted necesita para encargarse de sus asuntos
-            tributarios en Perú.
+            tributarios.
           </p>
           <p>
             Contamos con más de 10 años de trayectoria, trabajando con grandes

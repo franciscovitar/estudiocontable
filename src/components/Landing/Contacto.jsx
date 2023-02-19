@@ -79,7 +79,7 @@ function FormContacto() {
                 return errores;
               }}
               onSubmit={async (valores, { resetForm }) => {
-                const url = "https://fotografia.ga/mail";
+                const url = "https://estudiocontable.ml/mail";
                 const data = {
                   nombre: valores.nombre,
                   correo: valores.correo,

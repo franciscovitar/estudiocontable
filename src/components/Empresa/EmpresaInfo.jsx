@@ -60,7 +60,7 @@ function EmpresaInfo() {
               transition: { duration: 0.5, delay: 0.4 },
             }}
           >
-            ¡Cuéntenos qué necesita! ¿{" "}
+            ¡Cuéntenos qué necesita! ¿
             <span>Orientación en la constitución de empresas</span>? Quizá saber
             los <span>costos para constituir una empresa</span>. Cualquier
             asunto que requiera para formalizar su emprendimiento lo atenderemos

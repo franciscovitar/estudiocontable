@@ -20,9 +20,9 @@ function EmpresaInfo2() {
             <h2>¿Qué incluye?</h2>
             <p>
               Antes de fijarse sólo en los{" "}
-              <span>costos para constituir una empresa</span>
-              debe tener en cuenta todo lo que implica. Esto es lo que incluye
-              nuestros servicios, ¡no se nos escapa ningún detalle!{" "}
+              <span>costos para constituir una empresa</span> debe tener en
+              cuenta todo lo que implica. Esto es lo que incluye nuestros
+              servicios, ¡no se nos escapa ningún detalle!{" "}
             </p>
             <ul>
               <motion.li
@@ -291,9 +291,7 @@ function EmpresaInfo2() {
               >
                 De forma virtual a través del SID Sunarp con participación de
                 una Notaría. En esta modalidad la constitución puede tomar entre
-                7 a 15 días hábiles. Para un capital entre mil a cinco mil
-                soles, los gastos notariales y registrales pueden ser entre 250
-                a 400 soles.
+                7 a 15 días hábiles.
               </motion.li>
               <motion.li
                 viewport={{ once: true }}
@@ -308,11 +306,8 @@ function EmpresaInfo2() {
                 Notaría, a través de certificados digitales o firmas digitales.
                 En esta modalidad la constitución puede tomar entre 3 a 5 días
                 hábiles. Solo está disponible para constituir sociedades tipo
-                SACS, no para EIRL. Para un capital entre mil a cinco mil soles,
-                los gastos notariales y registrales pueden ser entre 100 a 200
-                soles, tener en cuenta que deben contratar un certificado
-                digital (CD), el costo mínimo por persona de un CD es de 75
-                soles.
+                SACS, no para EIRL.Tener en cuenta que deben contratar un
+                certificado digital (CD).
               </motion.li>
               <motion.li
                 viewport={{ once: true }}
@@ -325,12 +320,9 @@ function EmpresaInfo2() {
               >
                 De forma presencial a través de un abogado y con la
                 participación de la Notaría. Se recomienda este tipo para
-                constitución de empresas grandes, con un capital mayor a los
-                50mil soles. Aquí por lo general se redacta una minuta y un
-                estatuto especial, con varios gerentes y diferentes
-                responsabilidades para cada uno. En esta modalidad la
-                constitución puede tomar entre 15 a 30 días. Los gastos
-                notariales y registrales pueden estar entre 800 a 2,000 soles.
+                constitución de empresas grandes. Aquí por lo general se redacta
+                una minuta y un estatuto especial, con varios gerentes y
+                diferentes responsabilidades para cada uno.
               </motion.li>
             </ul>
           </motion.div>

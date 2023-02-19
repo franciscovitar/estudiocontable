@@ -15,7 +15,7 @@ function AsesoriaContableWelcome() {
         <h3>Asesoría contable</h3>
         <p>
           ¡Concéntrese en las actividades principales de su negocio! ¡Le
-          <span>ofrecemos asesoría contable y tributaria</span> de la mano de
+          <span> ofrecemos asesoría contable y tributaria</span> de la mano de
           los mejores profesionales!{" "}
         </p>
         <p>

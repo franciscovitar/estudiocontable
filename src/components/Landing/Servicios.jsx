@@ -120,8 +120,8 @@ function Servicios() {
           <h3>Asesoría Contable</h3>
           <p>
             Revisamos e implementamos los Principios de Contabilidad
-            Generalmente Aceptados en Perú (Normas Internacionales de
-            Información Financiera NIIF).
+            Generalmente Aceptados (Normas Internacionales de Información
+            Financiera NIIF).
           </p>
           <Link to="/AsesoriaContable">
             <motion.button whileHover={{ scale: 1.1 }}>VER MÁS</motion.button>

@@ -57,10 +57,10 @@ function Equipo() {
               transition: { duration: 0.5, delay: 0.2 },
             }}
           >
-            Contador titulado por la Universidad Nacional del Callao y Magister
-            en Administración de Empresas por la Universidad del Pacifico.
-            Cuenta con más de 10 años de experiencia trabajando en empresas de
-            servicios, construcción, comerciales, mineras y otras.
+            Contador titulado por la Universidad Nacional y Magister en
+            Administración de Empresas por la Universidad. Cuenta con más de 10
+            años de experiencia trabajando en empresas de servicios,
+            construcción, comerciales, mineras y otras.
           </motion.p>
         </div>
         <div className="col-sm-12 col-lg-5">
@@ -92,12 +92,11 @@ function Equipo() {
               transition: { duration: 0.5, delay: 0.2 },
             }}
           >
-            Contadora titulada por la Universidad Nacional del Callao, con
-            especialización en Normas Internacionales de Contabilidad por la
-            Pontificia Universidad Católica del Perú, y especialización en
-            Tributación por el Colegio de Contadores del Callao. Cuenta con más
-            de 10 años de experiencia trabajando en empresas de servicios e
-            industriales.
+            Contadora titulada por la Universidad Nacional, con especialización
+            en Normas Internacionales de Contabilidad por la Pontificia
+            Universidad, y especialización en Tributación por el Colegio de
+            Contadores. Cuenta con más de 10 años de experiencia trabajando en
+            empresas de servicios e industriales.
           </motion.p>
         </div>
       </div>

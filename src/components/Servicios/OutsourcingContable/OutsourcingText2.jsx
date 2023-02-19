@@ -39,14 +39,14 @@ function OutsourcingText2() {
               buenas manos!
             </li>
             <li>
-              Contará con el servicio de outsourcing contable en Perú parcial o
+              Contará con el servicio de outsourcing contable parcial o
               integral, a un precio asequible y competitivo.
             </li>
             <li>
               Nuestros servicios se adaptan a las necesidades de cada cliente.
               En todos ellos aplicamos los principios y las Normas
               Internacionales de Contabilidad (NIC e IFRS) que son aceptadas en
-              territorio peruano.
+              territorio.
             </li>
             <li>
               Contará con profesionales en cada campo, sin necesidad de

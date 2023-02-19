@@ -51,11 +51,11 @@ function Info() {
               transition: { duration: 0.5, delay: 0.2 },
             }}
           >
-            Brindamos soluciones en
+            Brindamos soluciones en{" "}
             <span>
               Asesoría Contable, Asesoría Tributaria, Asesoría Laboral, Asesoría
               Financiera, Asesoría Administrativa y Outsourcing Contable
-            </span>
+            </span>{" "}
             a Micro y Pequeñas en empresas <span>(Mypes Pymes)</span>; que
             inician operaciones o ya tienen presencia en el mercado, ofreciendo
             un soporte y acompañamiento para el logro de sus objetivos
@@ -75,10 +75,9 @@ function Info() {
             diferentes sectores de negocio, como construcción, minería,
             servicios, educación, retail, comerciales y salud, por lo que
             nuestro <span>estudio contable</span> tiene la capacidad y los
-            conocimientos
-            <span>(know-how)</span> adecuados para brindar soluciones en el
-            menor tiempo y costo, superando las expectativas de nuestros
-            clientes Mypes y pymes.
+            conocimientos <span>(know-how)</span> adecuados para brindar
+            soluciones en el menor tiempo y costo, superando las expectativas de
+            nuestros clientes Mypes y pymes.
           </motion.p>
           <motion.p
             viewport={{ once: true }}
@@ -214,11 +213,10 @@ function Info() {
           <h3>Visión</h3>
           <p>
             “Brindar soporte y soluciones en temas contables, tributarios y
-            empresariales a micro, pequeñas y medianas empresas establecidas en
-            el Perú, con profesionales con experiencia comprobada, en constante
-            capacitación y actualización, con el objetivo de agregar valor a las
-            operaciones de nuestros clientes, colaboradores, accionistas y
-            sociedad."
+            empresariales a micro, pequeñas y medianas empresas, con
+            profesionales con experiencia comprobada, en constante capacitación
+            y actualización, con el objetivo de agregar valor a las operaciones
+            de nuestros clientes, colaboradores, accionistas y sociedad."
           </p>
         </motion.div>
       </motion.div>

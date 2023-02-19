@@ -14,7 +14,7 @@ function OutsourcingWelcome() {
       <div className="container">
         <h2>Empresa de outsourcing contable</h2>
         <p>
-          ¿Necesita el <span>servicio de outsourcing contable</span> ? Existen
+          ¿Necesita el <span>servicio de outsourcing contable</span>? Existen
           muchas <span>empresas de outsourcing contable</span>, pero nosotros no
           solo le ofrecemos un servicio, nos volvemos su aliado estratégico para
           que pueda concentrarse en el core business de su negocio. ¡Tenemos más

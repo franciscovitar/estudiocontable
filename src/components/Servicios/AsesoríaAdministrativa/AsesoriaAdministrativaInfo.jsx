@@ -31,9 +31,9 @@ function AsesoriaAdministrativaInfo() {
           </h2>
           <p>
             ¿Aún tiene dudas sobre por qué su negocio necesita contar con
-            <span>asesoría contable y administrativa</span>? Estas son algunas
+            <span> asesoría contable y administrativa</span>? Estas son algunas
             razones de peso para contratar nuestros servicios de
-            <span>asesoría y consultoría administrativa empresarial</span>:
+            <span> asesoría y consultoría administrativa empresarial</span>:
           </p>
           <ul>
             <li>Analizaremos el flujo administrativo de su empresa.</li>
@@ -74,7 +74,7 @@ function AsesoriaAdministrativaInfo() {
             Contar con <span> asesoría administrativa para empresas</span> puede
             ser la clave para el crecimiento y estabilidad de su negocio. Como
             compañía de
-            <span> asesoría administrativa</span> , somos conscientes de que no
+            <span> asesoría administrativa</span>, somos conscientes de que no
             todas las empresas requieren la misma estrategia administrativa, y
             es que cada negocio es diferente, por eso desarrollamos planes que
             se adecúen al contexto, recursos, objetivos y la situación de cada
@@ -82,7 +82,7 @@ function AsesoriaAdministrativaInfo() {
           </p>
           <p>
             Al contar con nuestra
-            <span> asesoríaen procesos administrativos</span> , le ofrecemos
+            <span> asesoríaen procesos administrativos</span>, le ofrecemos
             estos y muchos otros beneficios:
           </p>
           <ul>

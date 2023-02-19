@@ -14,7 +14,7 @@ function Empresa() {
         <h1>¿Estas emprendiendo y quieres constituir tu empresa?</h1>
         <p>
           Te ayudamos con la constitución. Invierte en los gastos notariales y
-          registrales. ¡Formalízate¡
+          registrales. ¡Formalízate!
         </p>
         <Link to="/Empresa">
           <motion.button whileHover={{ scale: 1.1 }}>

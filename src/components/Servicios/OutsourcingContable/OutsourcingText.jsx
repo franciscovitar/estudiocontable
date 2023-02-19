@@ -27,7 +27,7 @@ function OutsourcingText() {
           <p>
             Nuestra experiencia en el sector nos permite diseñar un plan a la
             medida de cada uno de nuestros clientes. Con nuestra empresa, usted
-            puede tercerizar parcial o integralmente los servicios contables;
+            puede tercerizar parcial o integralmente los servicios contables,
             por ejemplo:
           </p>
           <ul>

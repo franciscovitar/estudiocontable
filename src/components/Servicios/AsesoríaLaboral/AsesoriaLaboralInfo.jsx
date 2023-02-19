@@ -6,20 +6,20 @@ import AsesoriaLaboralMina from "../../../image/pexels-mikhail-nilov-8296968.jpg
 
 function AsesoriaLaboralInfo() {
   return (
-    <div className="asesoria-laboral-info-container  container">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+      viewport={{ once: true }}
+      className="asesoria-laboral-info-container  container"
+    >
       {/* First */}
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
-        viewport={{ once: true }}
-        className="first row"
-      >
+      <div className="first row">
         <div className="col-lg-6 col-12">
           <h3>Servicio de asesoría laboral para empresas</h3>
           <p>
-            Brindamos el <span> servicio de asesoría laboral </span>, con el
+            Brindamos el <span>servicio de asesoría laboral</span>, con el
             objetivo de que nuestros clientes obtengan todo el soporte legal que
             necesitan en relación con:
           </p>
@@ -48,7 +48,7 @@ function AsesoriaLaboralInfo() {
             alt=""
           />
         </div>
-      </motion.div>
+      </div>
 
       {/* SECOND */}
 
@@ -67,8 +67,8 @@ function AsesoriaLaboralInfo() {
           <span>asesoría laboral</span> puede encargarse de todo lo que compete
           al área de recursos humanos de un negocio, por lo que su papel
           comprende más que solo contrataciones, por ejemplo, la {""}
-          <span>gestión de nóminas </span> , la{" "}
-          <span>evaluación de puestos de trabajo</span> , la
+          <span>gestión de nóminas</span>, la{" "}
+          <span>evaluación de puestos de trabajo</span>, la
           <span> preparación de la planilla mensual</span>, el{" "}
           <span>pago de indemnizaciones</span>, etc.
         </p>
@@ -167,7 +167,7 @@ function AsesoriaLaboralInfo() {
           mejor gestión de sus recursos.
         </p>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

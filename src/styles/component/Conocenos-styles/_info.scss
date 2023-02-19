@@ -28,6 +28,11 @@
             border-radius: 100%;
             padding: 20px;
 
+            @media(max-width: 1200px) {
+                width: 45vh;
+                height: 45vh;
+            }
+
             @media(max-width: 800px) {
                 width: 40vh;
                 height: 40vh;
@@ -58,6 +63,7 @@
                 border: 2px solid black;
                 padding: 20px;
                 border-radius: 100%;
+
 
             }
 

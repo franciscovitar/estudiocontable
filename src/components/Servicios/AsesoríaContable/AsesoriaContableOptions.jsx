@@ -6,7 +6,7 @@ function AsesoriaContableOptions() {
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
-      transition={{ duration: 2 }}
+      transition={{ duration: 1 }}
       viewport={{ once: true }}
       className="AsesoriaContableOptions-container"
     >
@@ -32,8 +32,8 @@ function AsesoriaContableOptions() {
           <div className="col-12 col-md-6 col-lg-4">
             <h3>Contabilidad externa - Outsourcing</h3>
             <p>
-              Le ofrecemos <span>asesoría contable para una microempresa</span>{" "}
-              , pequeña o mediana empresa. ¡Nos podemos encargar parcial o
+              Le ofrecemos <span>asesoría contable para una microempresa</span>,
+              pequeña o mediana empresa. ¡Nos podemos encargar parcial o
               totalmente de los aspectos contables de su negocio! Deje en
               nuestras manos su contabilidad y cuente con profesionales
               calificados y la tecnología necesaria para optimizar sus procesos.
