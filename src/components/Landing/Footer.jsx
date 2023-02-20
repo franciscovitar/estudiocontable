@@ -5,7 +5,7 @@ function Footer() {
   return (
     <FooterContainer>
       <p>
-        © 2022 construido y diseñado por{" "}
+        © 2022, Estudio Contable, construido y diseñado por{" "}
         <a href="https://genovasite.com/">Genova</a>.
       </p>
     </FooterContainer>
@@ -17,6 +17,7 @@ export default Footer;
 const FooterContainer = styled.footer`
   background-color: #333;
   align-items: center;
+  position: relative;
   display: flex;
   justify-content: center;
   width: 100%;

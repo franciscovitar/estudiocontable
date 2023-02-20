@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 function EmpresaWelcome() {
@@ -34,7 +33,7 @@ function EmpresaWelcome() {
           necesita para que trabaje conforme a la ley y disfrute de los
           beneficios de la formalización.{" "}
         </motion.p>
-        <Link to="/Contacto">
+        <a href="/Contacto">
           <motion.button
             viewport={{ once: true }}
             initial={{ opacity: 0, y: 50 }}
@@ -47,7 +46,7 @@ function EmpresaWelcome() {
           >
             Contáctanos
           </motion.button>
-        </Link>
+        </a>
       </motion.div>
     </div>
   );

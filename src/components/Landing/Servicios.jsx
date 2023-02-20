@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 
 import Icono1 from "../../image/barsgraphicinacircle_80050.png";
 import Icono2 from "../../image/officeboxsilhouette_89091.png";
@@ -58,9 +57,9 @@ function Servicios() {
             financieros, planilla de sueldos, además de asesoría contable,
             tributaria y laboral.
           </p>
-          <Link to="/Outsourcing">
+          <a href="/Outsourcing">
             <motion.button whileHover={{ scale: 1.1 }}>VER MÁS</motion.button>
-          </Link>
+          </a>
         </motion.div>
         <motion.div
           viewport={{ once: true }}
@@ -80,9 +79,9 @@ function Servicios() {
             con la finalidad de informar impuestos consistentes al giro y sector
             de cada negocio.
           </p>
-          <Link to="/AsesoriaTributaria">
+          <a href="/AsesoriaTributaria">
             <motion.button whileHover={{ scale: 1.1 }}>VER MÁS</motion.button>
-          </Link>
+          </a>
         </motion.div>
         <motion.div
           viewport={{ once: true }}
@@ -101,9 +100,9 @@ function Servicios() {
             tamaño. Así mismo, ofrecemos soporte legal sobre contratos de
             trabajo, gratificaciones, vacaciones, CTS y liquidaciones de BBSS.
           </p>
-          <Link to="/AsesoriaLaboral">
+          <a href="/AsesoriaLaboral">
             <motion.button whileHover={{ scale: 1.1 }}>VER MÁS</motion.button>
-          </Link>
+          </a>
         </motion.div>
         <motion.div
           viewport={{ once: true }}
@@ -123,9 +122,9 @@ function Servicios() {
             Generalmente Aceptados (Normas Internacionales de Información
             Financiera NIIF).
           </p>
-          <Link to="/AsesoriaContable">
+          <a href="/AsesoriaContable">
             <motion.button whileHover={{ scale: 1.1 }}>VER MÁS</motion.button>
-          </Link>
+          </a>
         </motion.div>
         <motion.div
           viewport={{ once: true }}
@@ -144,9 +143,9 @@ function Servicios() {
             este servicio comprende: flujo de caja económico y financiero, flujo
             de efectivo, análisis de estados financieros.
           </p>
-          <Link to="/AsesoriaFinanciera">
+          <a href="/AsesoriaFinanciera">
             <motion.button whileHover={{ scale: 1.1 }}>VER MÁS</motion.button>
-          </Link>
+          </a>
         </motion.div>
         <motion.div
           viewport={{ once: true }}
@@ -165,9 +164,9 @@ function Servicios() {
             identificamos puntos muertos, proponemos y ejecutamos mejoras.
             Maximizamos el uso de los recursos.
           </p>
-          <Link to="/AsesoriaAdministrativa">
+          <a href="/AsesoriaAdministrativa">
             <motion.button whileHover={{ scale: 1.1 }}>VER MÁS</motion.button>
-          </Link>
+          </a>
         </motion.div>
       </div>
     </div>

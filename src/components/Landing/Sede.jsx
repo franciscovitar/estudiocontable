@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Contador from "../../image/pexels-mikhail-nilov-8297040.jpg";
 import { motion } from "framer-motion";
 
@@ -43,7 +42,7 @@ function Sede() {
             micro y pequeñas empresas (MYPES y PYMES)
           </motion.p>
 
-          <Link to="/conocenos">
+          <a href="/conocenos">
             <motion.button
               whileHover={{ scale: 1.1 }}
               viewport={{ once: true }}
@@ -56,7 +55,7 @@ function Sede() {
             >
               Conocenos
             </motion.button>
-          </Link>
+          </a>
         </motion.div>
       </div>
     </div>

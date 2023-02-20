@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 function AsesoriaContableWelcome() {
@@ -25,9 +24,9 @@ function AsesoriaContableWelcome() {
           mejores especialistas contables y con las últimas tecnologías del
           sector, a su servicio!
         </p>
-        <Link to="/Contacto">
+        <a href="/Contacto">
           <motion.button whileHover={{ scale: 1.2 }}>Contáctanos</motion.button>
-        </Link>
+        </a>
       </div>
     </motion.div>
   );

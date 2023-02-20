@@ -18,6 +18,11 @@
         right: 0;
     }
 
+    @media(max-height: 800px) {
+
+        height: 100%;
+    }
+
     section {
         position: relative;
         color: rgb(255, 255, 255);
@@ -32,6 +37,7 @@
 
         @media(max-width:800px) {
             padding-top: 100px;
+            gap: 10px;
         }
 
         h2 {

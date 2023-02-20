@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 function OutsourcingWelcome() {
@@ -21,9 +20,9 @@ function OutsourcingWelcome() {
           de 10 años de experiencia trabajando con empresas de diferentes rubros
           y sectores! ¡Nuestra amplia cartera de clientes, nos respalda!
         </p>
-        <Link to="/Contacto">
+        <a href="/Contacto">
           <motion.button whileHover={{ scale: 1.2 }}>Contáctanos</motion.button>
-        </Link>
+        </a>
       </div>
     </motion.div>
   );

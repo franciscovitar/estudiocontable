@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import React from "react";
-import { Link } from "react-router-dom";
 
 function AsesoriaAdministrativaWelcome() {
   return (
@@ -28,9 +27,9 @@ function AsesoriaAdministrativaWelcome() {
           más por la gestión de recursos internos y externos de su
           emprendimiento, ni en trámites, licencias, manejo de personal, etc.
         </p>
-        <Link to="/contacto">
+        <a to="/contacto">
           <motion.button whileHover={{ scale: 1.2 }}>Contáctanos</motion.button>
-        </Link>
+        </a>
       </div>
     </motion.div>
   );

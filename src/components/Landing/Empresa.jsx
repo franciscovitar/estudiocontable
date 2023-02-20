@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 function Empresa() {
@@ -16,11 +15,11 @@ function Empresa() {
           Te ayudamos con la constitución. Invierte en los gastos notariales y
           registrales. ¡Formalízate!
         </p>
-        <Link to="/Empresa">
+        <a href="/Empresa">
           <motion.button whileHover={{ scale: 1.1 }}>
             Constituye tu empresa
           </motion.button>
-        </Link>
+        </a>
       </motion.div>
     </div>
   );

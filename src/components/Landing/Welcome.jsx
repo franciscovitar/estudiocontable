@@ -29,7 +29,7 @@ function Welcome() {
           Servicios contables para Pymes. Te ayudamos a tomar las mejores
           decisiones
         </motion.h1>
-        <Link to="/conocenos">
+        <a href="/conocenos">
           <motion.button
             viewport={{ once: true }}
             initial={{ opacity: 0, y: 50 }}
@@ -42,7 +42,7 @@ function Welcome() {
           >
             Conocenos
           </motion.button>
-        </Link>
+        </a>
       </motion.div>
     </div>
   );

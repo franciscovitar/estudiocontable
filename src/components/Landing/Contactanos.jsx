@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 
 function Contactanos() {
   return (
@@ -12,9 +11,9 @@ function Contactanos() {
         className="texto"
       >
         <h1>Contáctanos si tienes dudas!</h1>
-        <Link to="/conocenos">
+        <a href="/contacto">
           <motion.button whileHover={{ scale: 1.1 }}>Contacto</motion.button>
-        </Link>
+        </a>
       </motion.div>
     </div>
   );
