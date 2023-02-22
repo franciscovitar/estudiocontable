@@ -27,7 +27,7 @@ function AsesoriaAdministrativaWelcome() {
           más por la gestión de recursos internos y externos de su
           emprendimiento, ni en trámites, licencias, manejo de personal, etc.
         </p>
-        <a to="/contacto">
+        <a href="/contacto">
           <motion.button whileHover={{ scale: 1.2 }}>Contáctanos</motion.button>
         </a>
       </div>
