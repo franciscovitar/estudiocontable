@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/estudiocontable/static/css/main.ec0c25f2.css",
-    "main.js": "/estudiocontable/static/js/main.18391105.js",
+    "main.css": "/estudiocontable/static/css/main.2ffc9880.css",
+    "main.js": "/estudiocontable/static/js/main.99e3b5f1.js",
     "static/media/pexels-karolina-grabowska-7681097.jpg": "/estudiocontable/static/media/pexels-karolina-grabowska-7681097.e05eff172ac6e5a5cffd.jpg",
     "static/media/pexels-anna-nekrashevich-6801680.jpg": "/estudiocontable/static/media/pexels-anna-nekrashevich-6801680.5b626c40524a3b81acf2.jpg",
     "static/media/pexels-olia-danilevich-5466820.jpg": "/estudiocontable/static/media/pexels-olia-danilevich-5466820.0c4b414e3c1a803c35c4.jpg",
@@ -21,11 +21,11 @@
     "static/media/hands_handshake_icon_194812.png": "/estudiocontable/static/media/hands_handshake_icon_194812.b8afbc4f578279af49ed.png",
     "static/media/barsgraphicinacircle_80050.png": "/estudiocontable/static/media/barsgraphicinacircle_80050.493bf5b6a8a98f02f762.png",
     "index.html": "/estudiocontable/index.html",
-    "main.ec0c25f2.css.map": "/estudiocontable/static/css/main.ec0c25f2.css.map",
-    "main.18391105.js.map": "/estudiocontable/static/js/main.18391105.js.map"
+    "main.2ffc9880.css.map": "/estudiocontable/static/css/main.2ffc9880.css.map",
+    "main.99e3b5f1.js.map": "/estudiocontable/static/js/main.99e3b5f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec0c25f2.css",
-    "static/js/main.18391105.js"
+    "static/css/main.2ffc9880.css",
+    "static/js/main.99e3b5f1.js"
   ]
 }

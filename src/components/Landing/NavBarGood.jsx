@@ -8,8 +8,6 @@ function NavBarGood() {
   const [servicios, setServicios] = useState(false);
   const [servicio, setServicio] = useState(1);
 
-  console.log(servicio);
-
   const bgDiv = useRef("");
   const linksActive = useRef("");
 
