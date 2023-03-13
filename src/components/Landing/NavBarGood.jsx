@@ -31,21 +31,26 @@ function NavBarGood() {
     <nav className="navbar-container">
       <div className={navbar ? "navbar-bg" : "navbar-nobg"}>
         <div className="left">
-          <motion.a whileHover={{ scale: 1.1 }} href="/estudiocontable">
-            <h2 className={`logo ${navbar ? "text-dark" : "text-white"}`}>
+          <motion.a whileHover={{ scale: 1.1 }} href="/">
+            <h2
+              className={`logo ${navbar ? "text-dark" : "text-white"} ${
+                clicked ? "text-white" : "text-dark"
+              }`}
+            >
               Estudio
             </h2>
-            <h2 className={`logo ${navbar ? "text-dark" : "text-white"}`}>
+            <h2
+              className={`logo ${navbar ? "text-dark" : "text-white"} ${
+                clicked ? "text-white" : "text-dark"
+              }`}
+            >
               Contable
             </h2>
           </motion.a>
         </div>
         <div className="right">
           <div className="links">
-            <a
-              className={navbar ? "text-secondary" : "text-white"}
-              href="/estudiocontable"
-            >
+            <a className={navbar ? "text-secondary" : "text-white"} href="/">
               Inicio
             </a>
             <a
@@ -171,7 +176,7 @@ function NavBarGood() {
         </div>
         <div ref={bgDiv} className="bg-div">
           <div ref={linksActive} className="links-active">
-            <a href="/estudiocontable">Inicio</a>
+            <a href="/">Inicio</a>
             <a href="/conocenos">Nosotros</a>
             <div className="servicios">
               <div

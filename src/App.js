@@ -19,7 +19,7 @@ function App() {
     <BrowserRouter>
       <NavBarGood></NavBarGood>
       <Routes>
-        <Route index path="/estudiocontable" element={<Home />} />
+        <Route index element={<Home />} />
         <Route path="/conocenos" element={<Conocenos />} />
         <Route path="/Outsourcing" element={<OutSourcing />} />
         <Route path="/AsesoriaTributaria" element={<AsesoriaTributaria />} />
