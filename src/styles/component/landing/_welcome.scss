@@ -9,6 +9,7 @@
     align-items: center;
     padding-left: 50px;
 
+
     @media(max-width: 1000px) {
         padding-left: 50px;
     }
@@ -17,6 +18,9 @@
         padding: 50px 10px 10px;
     }
 
+    @media(max-height: 650px) {
+        height: 650px;
+    }
 
 
     &::before {

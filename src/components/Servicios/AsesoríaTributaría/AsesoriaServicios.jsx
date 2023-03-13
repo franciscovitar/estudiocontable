@@ -112,7 +112,7 @@ function AsesoriaServicios() {
 
         <div className="col-lg-6 col-12">
           <p>
-            Qfrecemos el servicio de asesoría tributaria con el objetivo de que
+            Ofrecemos el servicio de asesoría tributaria con el objetivo de que
             sus declaraciones mensuales y DJ anual no sean observados por SUNAT.
             De la misma forma, con el trabajo de nuestro equipo de contadores
             profesionales, si acaso su negocio fuera fiscalizado, pasaría la

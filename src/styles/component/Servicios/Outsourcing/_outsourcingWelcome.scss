@@ -10,6 +10,10 @@
     align-items: center;
     justify-content: left;
 
+    @media(max-height: 650px) {
+        height: 650px;
+    }
+
     &::before {
         content: "";
         position: absolute;

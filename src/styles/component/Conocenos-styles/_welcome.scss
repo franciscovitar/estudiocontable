@@ -11,6 +11,9 @@
     justify-content: center;
     text-align: center;
 
+    @media(max-height: 650px) {
+        height: 650px;
+    }
 
     &::before {
         content: "";

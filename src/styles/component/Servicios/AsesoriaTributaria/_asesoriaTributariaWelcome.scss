@@ -10,6 +10,11 @@
     align-items: center;
     padding: 30px 15px 15px;
 
+    @media(max-height: 650px) {
+        height: 650px;
+    }
+
+
     &::before {
         content: "";
         position: absolute;

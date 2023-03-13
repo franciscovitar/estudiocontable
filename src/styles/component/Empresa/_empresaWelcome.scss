@@ -10,6 +10,10 @@
     position: relative;
     font-weight: 600;
 
+    @media(max-height: 650px) {
+        height: 650px;
+    }
+
     &::before {
         content: "";
         position: absolute;
